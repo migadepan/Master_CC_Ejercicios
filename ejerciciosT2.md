@@ -39,3 +39,27 @@ Y se ejecuta
 
 ![capt6](https://user-images.githubusercontent.com/6852023/32694061-0436c176-c737-11e7-9931-19835950e58d.png)
 
+### Ejercicio 3-Escribir en YAML la siguiente estructura de datos en JSON
+
+```
+{ uno: "dos",
+  tres: [ 4, 5, "Seis", { siete: 8, nueve: [ 10, 11 ] } ] }
+```
+
+```
+---
+uno: dos
+tres:
+- 4
+- 5
+- Seis
+- siete: 8
+  nueve:
+  - 10
+  - 11
+  ```
+
+Ejercicio 5-Desplegar los fuentes de una aplicación cualquiera, propia o libre, que se encuentre en un servidor git público en la máquina virtual Azure (o una máquina virtual local) usando ansible.
+
+
+
