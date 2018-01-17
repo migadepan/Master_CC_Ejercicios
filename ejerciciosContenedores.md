@@ -40,3 +40,7 @@ sudo docker commit ec6af182147b alpineactualizada
 ![captura de pantalla de 2018-01-17 17-21-28](https://user-images.githubusercontent.com/6852023/35053598-e0184c12-fbaa-11e7-828a-2e8939b20889.png)
 
 
+## Ejercicio 7
+Examinar la estructura de capas que se forma al crear imágenes nuevas a partir de contenedores que se hayan estado ejecutando.
+
+![captura de pantalla de 2018-01-17 17-38-47](https://user-images.githubusercontent.com/6852023/35054652-5dae05ac-fbad-11e7-9aab-d364cdcbd28e.png)
