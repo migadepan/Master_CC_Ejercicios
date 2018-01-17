@@ -44,3 +44,13 @@ sudo docker commit ec6af182147b alpineactualizada
 Examinar la estructura de capas que se forma al crear imágenes nuevas a partir de contenedores que se hayan estado ejecutando.
 
 ![captura de pantalla de 2018-01-17 17-38-47](https://user-images.githubusercontent.com/6852023/35054652-5dae05ac-fbad-11e7-9aab-d364cdcbd28e.png)
+
+## Ejercicio 8
+
+Crear un volumen y usarlo, por ejemplo, para escribir la salida de un programa determinado.
+
+He creado el bm.sh dentro de /app y he seguido ese ejemplo para probarlo en 3 sistemas diferentes. Nos muestra en cada sistema la cantidad de archivos. 
+
+![benchmarkenotrasdistro](https://user-images.githubusercontent.com/6852023/35059500-9c9fbe46-fbbb-11e7-912b-688db38f1420.png)
+
+*He intentado probar 
