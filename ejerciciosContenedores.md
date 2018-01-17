@@ -27,3 +27,16 @@ Comparar el tamaño de las imágenes de diferentes sistemas operativos base, Fed
 Hay grandes diferencias de tamaño entre unas y otras imagenes, de 4 a 252MB en éstos casos.
 
 ![captura de pantalla de 2018-01-17 15-59-47](https://user-images.githubusercontent.com/6852023/35050972-6883193a-fba4-11e7-81f2-4e99af533369.png)
+
+## Ejercicio 6
+Crear a partir del contenedor anterior una imagen persistente con commit.
+
+A partir de contenedor Alpine actualizado, voy a crear una nueva imagen con el comando
+
+```
+sudo docker commit ec6af182147b alpineactualizada
+```
+
+![captura de pantalla de 2018-01-17 17-21-28](https://user-images.githubusercontent.com/6852023/35053598-e0184c12-fbaa-11e7-828a-2e8939b20889.png)
+
+
