@@ -21,4 +21,9 @@ Como podemos ver en las imagenes, en la primera ejecución se descarga e instala
 
 ![captura de pantalla de 2018-01-17 15-50-36](https://user-images.githubusercontent.com/6852023/35050847-0cf59098-fba4-11e7-9fba-f5cfb09e3c4f.png)
 
+## Ejercicio 5
+Comparar el tamaño de las imágenes de diferentes sistemas operativos base, Fedora, CentOS y Alpine, por ejemplo.
 
+Hay grandes diferencias de tamaño entre unas y otras imagenes, de 4 a 252MB en éstos casos.
+
+![captura de pantalla de 2018-01-17 15-59-47](https://user-images.githubusercontent.com/6852023/35050972-6883193a-fba4-11e7-81f2-4e99af533369.png)
