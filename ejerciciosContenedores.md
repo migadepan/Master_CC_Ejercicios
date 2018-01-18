@@ -61,3 +61,10 @@ Usar un miniframework REST para crear un servicio web y introducirlo en un conte
 Utilizando el microframework [Flask](http://flask.pocoo.org/) he desarrollado un pequeño servicio que muestra las vias de escalada. Aunque el sistema de dos contenedores conectados funciona, tengo un problema con el servicio del cliente que estoy solucionando. El servidor si funciona desde mi navegador.
 
 ![captura de pantalla de 2018-01-18 14-40-06](https://user-images.githubusercontent.com/6852023/35100939-eca987da-fc5d-11e7-8371-1c6cfcea72b4.png)
+
+
+## Ejercicio 10
+Reproducir los contenedores creados anteriormente usando un Dockerfile.
+
+[Dockerfile-servidor](https://github.com/migadepan/Master_CC_Ejercicios/blob/master/composePrueba/server/Dockerfile)
+[Dockerfile-cliente](https://github.com/migadepan/Master_CC_Ejercicios/blob/master/composePrueba/client/Dockerfile)
