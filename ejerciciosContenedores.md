@@ -55,3 +55,9 @@ He creado el bm.sh dentro de /app y he seguido ese ejemplo para probarlo en 3 si
 
 *He intentado probar con el microservicio de Perl del docente y no me ha funcionado la descarga. 
 
+## Ejercicio 9 (En desarrollo)
+Usar un miniframework REST para crear un servicio web y introducirlo en un contenedor, y componerlo con un cliente REST que sea el que finalmente se ejecuta y sirve como “frontend”.
+
+Utilizando el microframework [Flask](http://flask.pocoo.org/) he desarrollado un pequeño servicio que muestra las vias de escalada. Aunque el sistema de dos contenedores conectados funciona, tengo un problema con el servicio del cliente que estoy solucionando. El servidor si funciona desde mi navegador.
+
+![captura de pantalla de 2018-01-18 14-40-06](https://user-images.githubusercontent.com/6852023/35100939-eca987da-fc5d-11e7-8371-1c6cfcea72b4.png)
