@@ -1,10 +1,9 @@
-import httplib2
+import requests
+from flask import Flask
+app = Flask(__name__)
 
-if __name__ == '__main__':
-   httplib2.debuglevel     = 0
-   h = httplib2.Http()
-   http = h.HTTPConnection("http://127.0.0.1/vias", 5000)
-
-   response, content = http.request("GET")
-   print (http.getresponse().read())
-  
+@app.route('/vias')
+def get_data():
+    while True:
+        requests.get('http://127.0.0.1:5000').content
+        print('Peticion')
