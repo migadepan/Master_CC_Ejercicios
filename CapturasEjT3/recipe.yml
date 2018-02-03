@@ -1,0 +1,13 @@
+---
+- hosts: 52.237.73.201
+  sudo: yes
+
+  tasks:
+    - name: Actualiza repos
+      apt:
+          update_cache: yes
+    - name: Instala paquetes
+      apt: name=git state=present
+      apt: name=python3 state=present
+    - name: Instala Redis Server
+      apt: name=redis-server state=present
